@@ -32,7 +32,7 @@ class App extends Component {
           <Link to='/post'>Post A Comment</Link>
         </li>
         <li>
-          <Link>{this.renderButton()}</Link>
+          {this.renderButton()}
         </li>
       </ul>
     )
